@@ -51,7 +51,7 @@ public final class FabCar implements ContractInterface {
      * @return the Car found on the ledger if there was one
      */
     @Transaction()
-    public Log queryCar(final Context ctx, final String key) {
+    public Log queryLog(final Context ctx, final String key) {
         ChaincodeStub stub = ctx.getStub();
         String carState = stub.getStringState(key);
 
@@ -102,7 +102,7 @@ public final class FabCar implements ContractInterface {
      * @return the created Car
      */
     @Transaction()
-    public Log createCar(final Context ctx, final String key, final String actor_id, final String actor_permission, final String file_id, final String file_permission,
+    public Log createLog(final Context ctx, final String key, final String actor_id, final String actor_permission, final String file_id, final String file_permission,
                          final String company, final String owner) {
         ChaincodeStub stub = ctx.getStub();
 

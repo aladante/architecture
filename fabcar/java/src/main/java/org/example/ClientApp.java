@@ -38,17 +38,15 @@ public class ClientApp {
 
 			byte[] result;
 
-			result = contract.evaluateTransaction("queryAllCars");
+			result = contract.evaluateTransaction("queryAllLogs");
 			System.out.println(new String(result));
 
-			contract.submitTransaction("createCar", "CAR10", "VW", "Polo", "Grey", "Mary");
+			contract.submitTransaction("createLog", "LOG10", "ab1", "A", "Grey", "A", "lean", "ching");
 
-			result = contract.evaluateTransaction("queryCar", "CAR10");
+			result = contract.evaluateTransaction("queryLog", "LOG10");
 			System.out.println(new String(result));
 
-			contract.submitTransaction("changeCarOwner", "CAR10", "Archie");
-
-			result = contract.evaluateTransaction("queryCar", "CAR10");
+			result = contract.evaluateTransaction("queryLog", "LOG10");
 			System.out.println(new String(result));
 		}
 	}
