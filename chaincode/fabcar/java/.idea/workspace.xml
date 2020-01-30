@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="569d6559-dcf5-4e0f-9f61-42e59cf57f92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../fabcar/java/fabcar-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/logger/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/fabcar/FabCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hyperledger/fabric/samples/logger/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/samples/fabcar/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hyperledger/fabric/samples/fabcar/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fabcar/startFabric.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fabcar/startFabric.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="logger" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="logger" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="logger" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="logger" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="logger" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X785EcbDUCLCfXCvfQVvdskvTt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.FabLogTest">
+    <configuration name="FabLogTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.hyperledger.fabric.samples.fabcar.FabLogTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvokeCreateLogTransaction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.hyperledger.fabric.samples.fabcar.FabLogTest$InvokeCreateLogTransaction&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="java [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="java [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="java [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FabLogTest" />
+        <item itemvalue="Gradle.InvokeCreateLogTransaction" />
+        <item itemvalue="Gradle.java [assemble]" />
+        <item itemvalue="Gradle.java [clean]" />
+        <item itemvalue="Gradle.java [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="569d6559-dcf5-4e0f-9f61-42e59cf57f92" name="Default Changelist" comment="" />
+      <created>1580385586053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580385586053</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1580396398482">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580396398482" />
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580396745457">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580396745457" />
+    <state x="396" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.979@0.23.1680.979" timestamp="1580389532334" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1580399816354">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580399816354" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1580393181657" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1580399816352">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580399816352" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1580393181656" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1580399816351">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580399816351" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1580393181656" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1580399816353">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580399816353" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1580393181656" />
+    <state x="509" y="216" key="NewModule_or_Project.wizard" timestamp="1580393303381">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="509" y="216" key="NewModule_or_Project.wizard/0.23.1680.979@0.23.1680.979" timestamp="1580393303381" />
+    <state x="547" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580395325995">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="547" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979@0.23.1680.979" timestamp="1580395325995" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1580396381827">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1580396381827" />
+  </component>
+</project>
