@@ -14,9 +14,13 @@ This code runs 2 organisations and 4 poeple in total that make usage of the bloc
 ## RUN THE CODE
 ### Before
 first install the fabric sample binaries.
+This is necesarry to compile specific docker images that we use.
+
+The latest described in the docker-compose file is not up to date with the docker images created with this script
 This can be done with this command
+
 ```
-curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 1.1.0
+curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 
 
 ```
 this will create a folder `fabric-sample`
