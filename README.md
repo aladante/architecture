@@ -16,7 +16,7 @@ This code runs 2 organisations and 4 poeple in total that make usage of the bloc
 first install the fabric sample binaries.
 This can be done with this command
 ```
-curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 1.1.0
+curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 
 
 ```
 this will create a folder `fabric-sample`
