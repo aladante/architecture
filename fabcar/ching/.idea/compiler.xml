@@ -9,8 +9,5 @@
         <module name="fabcar-java" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="fabcar-java" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

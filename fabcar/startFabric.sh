@@ -12,13 +12,39 @@ export MSYS_NO_PATHCONV=1
 starttime=$(date +%s)
 CC_SRC_LANGUAGE=${1:-"go"}
 CC_SRC_LANGUAGE=`echo "$CC_SRC_LANGUAGE" | tr [:upper:] [:lower:]`
-CC_RUNTIME_LANGUAGE=java
-CC_SRC_PATH=/opt/gopath/src/github.com/hyperledger/fabric-samples/chaincode/fabcar/java/build/install/fabcar
-echo Compiling Java code ...
-pushd ../chaincode/fabcar/java
-./gradlew installDist
-popd
-echo Finished compiling Java code
+if [ "$CC_SRC_LANGUAGE" = "go" -o "$CC_SRC_LANGUAGE" = "golang"  ]; then
+	CC_RUNTIME_LANGUAGE=golang
+	CC_SRC_PATH=github.com/hyperledger/fabric-samples/chaincode/fabcar/go
+	echo Vendoring Go dependencies ...
+	pushd ../chaincode/fabcar/go
+	GO111MODULE=on go mod vendor
+	popd
+	echo Finished vendoring Go dependencies
+elif [ "$CC_SRC_LANGUAGE" = "java" ]; then
+	CC_RUNTIME_LANGUAGE=java
+	CC_SRC_PATH=/opt/gopath/src/github.com/hyperledger/fabric-samples/chaincode/fabcar/java/build/install/fabcar
+  echo Compiling Java code ...
+  pushd ../chaincode/fabcar/java
+  ./gradlew installDist
+  popd
+  echo Finished compiling Java code
+elif [ "$CC_SRC_LANGUAGE" = "javascript" ]; then
+	CC_RUNTIME_LANGUAGE=node # chaincode runtime language is node.js
+	CC_SRC_PATH=/opt/gopath/src/github.com/hyperledger/fabric-samples/chaincode/fabcar/javascript
+elif [ "$CC_SRC_LANGUAGE" = "typescript" ]; then
+	CC_RUNTIME_LANGUAGE=node # chaincode runtime language is node.js
+	CC_SRC_PATH=/opt/gopath/src/github.com/hyperledger/fabric-samples/chaincode/fabcar/typescript
+	echo Compiling TypeScript code into JavaScript ...
+	pushd ../chaincode/fabcar/typescript
+	npm install
+	npm run build
+	popd
+	echo Finished compiling TypeScript code into JavaScript
+else
+	echo The chaincode language ${CC_SRC_LANGUAGE} is not supported by this script
+	echo Supported chaincode languages are: go, java, javascript, and typescript
+	exit 1
+fi
 
 
 # clean the keystore

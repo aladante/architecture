@@ -12,6 +12,19 @@ as it is in the github .com directory.
 This code runs 2 organisations and 4 poeple in total that make usage of the blockchain.
 
 ## RUN THE CODE
+
+### The statement under are no longer of use.
+revised.
+I made sure to delete al the not necessary files.
+Now you only need to copy the files and overwrite the existing files.
+
+It's important to double check if all the test are called.
+The last issue was that 1 test was commented.
+
+Thanks to this it missed a essential part.
+
+This is know fixed.
+
 ### Before
 first install the fabric sample binaries.
 This is necesarry to compile specific docker images that we use.
